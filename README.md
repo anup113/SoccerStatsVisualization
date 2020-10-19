@@ -9,7 +9,13 @@ Creative players are esstential for each team who are responsible for the attack
 2. Player must have played atleast 500 minutes of soccer
 3. GK are removed from the analysis
 
-We are removing Goalkeepers from our analysis since their main role is not creative though some goalkeeper have cruicial role in playing from the back we assume that the creative action of the goalkeepers would not be captured by the goal creating actions and shot crating actions.
+
+We are removing Goalkeepers from our analysis since their main role is not creative though some goalkeeper have cruicial role in playing from the back we assume that the creative action of the goalkeepers would not be captured by the goal creating actions and shot creating actions.
+
+mean_sca_per90 for gks = 0.095
+mean_gca_per90 for gks = 0.0011
+
+We consider these values very small which could reduce the overall mean thus remove Goalkeepers from our anlaysis.
 
 Number of Goalkeepers who have played more than 500 minnutes = 27
 
